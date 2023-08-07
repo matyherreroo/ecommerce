@@ -1,0 +1,18 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: wheat;
+    border-radius: 10px black;
+}
+.botonNav{
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+.cart{
+    margin-top: 8px;
+    margin-right: 5px;
+}
+h3{
+    margin-left: 5px;
+}

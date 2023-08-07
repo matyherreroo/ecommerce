@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import CartWidget from './components/CartWidget/CartWidget';
@@ -8,11 +7,10 @@ import "./estilos/styles.css"
 
 function App() {
   return (
-    <div className="App">
-      <ItemListContainer greeting={'Bienvendo'}/> 
-      <NavBar/> 
+    <div className="App"> 
+    <NavBar/> 
+      <ItemListContainer greeting={'Bienvenido'}/> 
       <CartWidget/>
-    
     </div>
       
      
