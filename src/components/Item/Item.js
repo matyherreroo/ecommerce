@@ -1,5 +1,6 @@
 import "./Item.css"
 import ItemCount from "../ItemCount/ItemCount"
+import { Link } from "react-router-dom"
 
 
 
@@ -27,8 +28,7 @@ const Item = ({id, title, image, price, category, count }) => {
             </section>
                
             <footer className="ItemFooter">
-
-                <button className="Option">ver detalles</button>
+                <Link to={'/item/${id}'} className="Option">ver detalle</Link>
 
             </footer>
     </article>
