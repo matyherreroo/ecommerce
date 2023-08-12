@@ -8,7 +8,6 @@ const Item = ({id, title, image, price, category, count }) => {
     return (
     <article className="CardItem"> 
         <header className="Header">
-        
             <h2 className="ItemHeader">
                 {title}
             </h2>
@@ -28,7 +27,7 @@ const Item = ({id, title, image, price, category, count }) => {
             </section>
                
             <footer className="ItemFooter">
-                <Link to={'/item/${id}'} className="Option">ver detalle</Link>
+            <Link to={`/item/${id}`} className='Option'>Ver detalle</Link>
 
             </footer>
     </article>

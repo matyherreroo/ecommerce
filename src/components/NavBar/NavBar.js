@@ -1,15 +1,15 @@
 import CartWidget from "../CartWidget/CartWidget";
 import "../navBar/NavBar.css"
-import { NavLink} from "react-router-dom"
+import { NavLink, Link} from "react-router-dom"
 
 
 const NavBar = () => {
     return(
         <nav>
-            <link to="/">
-                <h3>Ecommerce</h3>
-            </link>
-            <div>
+            <Link to="/">
+                <h3 className="title">Ecommerce</h3>
+            </Link>
+            <div className="navegador">
                 <NavLink to={"/category/women's clothing"} className={({isActive}) => isActive ? "ActiveOption" : Option}>Ropa de mujer</NavLink>
                 <NavLink to={"/category/men's clothing"} className={({isActive}) => isActive ? "ActiveOption" : Option}>Ropa de hombre</NavLink>
                 <NavLink to={"/category/jewelery"} className={({isActive}) => isActive ? "ActiveOption" : Option}>joyas</NavLink>

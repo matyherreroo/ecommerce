@@ -4,11 +4,8 @@ nav{
     background-color: wheat;
     border-radius: 10px black;
 }
-
-NavLink{
-    margin-right: 10px;
-    margin-left: 10px;
-    
+.title{
+    text-decoration: none;
 }
 .cart{
     margin-top: 8px;
@@ -16,4 +13,36 @@ NavLink{
 }
 h3{
     margin-left: 5px;
+    text-decoration: none;
+    }
+
+.navegador {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .ActiveOption {
+  color: rgb(15, 16, 62);
+  transform: scale(1.1);
+  text-decoration: none;
+    
+ 
 }
+
+  .Option {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+
+  }
+  .Option:hover{
+    color: bisque;
+    transform: scale(1.1);
+  }
+  
+  
+
+
+
+
