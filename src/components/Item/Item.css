@@ -31,3 +31,11 @@ button:hover{
     background-color: rgb(130, 126, 126);
     transition: 0.4s;
 }
+Option{
+    padding: 10px;
+    border-radius: 10px ;
+    background-color: rgb(8, 8, 45);
+    margin-top: 10px;
+    text-decoration: none;
+}
+
